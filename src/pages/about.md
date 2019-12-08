@@ -1,3 +1,7 @@
+---
+path: "/about"
+---
+
 ## Hi there
 
 My name is Radek and I'm the author of this starter. I made it to help you present your ideas easier.
