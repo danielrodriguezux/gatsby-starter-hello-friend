@@ -15,6 +15,9 @@ const BlogPostTemplate = ({ data, pageContext }) => {
   } = data.markdownRemark
   const { next, previous } = pageContext
 
+> Hello my names Danny
+
+
   return (
     <Layout>
       <SEO title={title} description={excerpt || autoExcerpt} />
@@ -49,7 +52,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       frontmatter {
         title
-        date
+        date(formatString: "YYYY-MM-DD")
         path
         author
         excerpt
