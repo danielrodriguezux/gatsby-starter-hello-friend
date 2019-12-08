@@ -2,7 +2,7 @@
 title: "Google Assistant"
 path: "/sample"
 date: "2019-12-08"
-coverImage: "../images/weather-spec.jpg"
+coverImage: "none"
 author: "Daniel Rodriguez"
 excerpt: '"Hello, friend?" That''s lame. Maybe I should give you a name...'
 tags: ["rob____ot", "hello friend"]
