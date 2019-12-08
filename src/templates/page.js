@@ -6,9 +6,6 @@ import SEO from '../components/seo'
 import Layout from '../components/layout'
 import Post from '../components/post'
 
-> Hello my name is dannyfrommiami, I am a product designer at <a>facebook</a>(www.facebook.com)
-
-
 const BlogPostTemplate = ({ data, pageContext }) => {
   const {
     frontmatter: { title, date, path, author, coverImage, excerpt, tags },
